@@ -55,11 +55,11 @@ job "zookeeper" {
        task "zookeeper" {
            driver = "docker"
            artifact {
-               source = "https://gist.githubusercontent.com/smuthali/d267efdc67f269efefeebf7668618a69/raw/c4af50d8373d1ffa6b521522de06ffcf41f4a6c1/zoo.tpl"
+               source = "https://gist.githubusercontent.com/<>/d267efdc67f269efefeebf7668618a69/raw/c4af50d8373d1ffa6b521522de06ffcf41f4a6c1/zoo.tpl"
                destination = "local"
            }
         artifact {
-        source = "https://gist.githubusercontent.com/smuthali/d628a7162f367b57a269b5fdeb354146/raw/8e31530bb6e1dd595c914e4ef821e76aa27260c5/myid.tpl"
+        source = "https://gist.githubusercontent.com/<>/d628a7162f367b57a269b5fdeb354146/raw/8e31530bb6e1dd595c914e4ef821e76aa27260c5/myid.tpl"
         destination = "local"
         }
            template {
