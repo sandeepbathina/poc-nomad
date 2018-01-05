@@ -38,7 +38,7 @@ job "kafka" {
       driver = "docker"
 
       artifact {
-        source      = "https://gist.githubusercontent.com/smuthali/fd2562f704bca761641006d40800348f/raw/7787fddfaa83462af640a677815731ebbe1c9309/kafka.tpl"
+        source      = "https://gist.githubusercontent.com/<>/fd2562f704bca761641006d40800348f/raw/7787fddfaa83462af640a677815731ebbe1c9309/kafka.tpl"
         destination = "local"
       }
 
